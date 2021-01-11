@@ -155,7 +155,11 @@ body {
     box-shadow: 2px 2px 12px #555;
 }
 
-
+#CPL {
+    float: left;
+    width: 250px;
+    
+}
 
 
 
@@ -213,8 +217,8 @@ form {
     float: left;
     border: 15px ridge #EAE571;
     background-color: WhiteSmoke;
-    margin: 5% 25% 5% 25%;
-    padding: 4px;
+    margin: 5% 25% 1% 25%;
+    padding: 0px; 
     box-shadow: 2px 2px 12px #555;
     z-index: 1;
 }
@@ -222,8 +226,8 @@ form {
     float: right;
     border: 15px ridge #EAE571;
     background-color: WhiteSmoke;
-    margin: 5% 25% 5% 25%;
-    padding: 4px;
+    margin: 5% 25% 1% 25%;
+    padding: 0px;
     box-shadow: 2px 2px 12px #555;
     z-index: 1;
 }
@@ -248,15 +252,23 @@ form {
 
 
 p.legende {
-    text-shadow:0 0 3px black;
+    text-shadow:0 0 1px black;
     font-weight: bold;
-    color:#393A5D;
+    color:#ed7425;
     font-size:160%; 
-    text-align: center; 
-    margin:0px; 
+    margin: 1% 25% 5% 25%;
+    text-align: left; 
     padding:0px;
     }
-
+p.legende2 {
+    text-shadow:0 0 1px black;
+    font-weight: bold;
+    color:#ed7425;
+    font-size:160%; 
+    text-align: right; 
+    margin: 1% 25% 5% 25%;
+    padding:0px;
+    }
 
 
 /* Le footer */
