@@ -249,7 +249,13 @@ form {
     box-shadow: 2px 2px 12px #555;
     z-index: 1;
 }
-
+#insta {
+    float: left;
+    margin: 3% 3% 3% 30%;
+    width: 700px;
+    box-shadow: 2px 2px 12px #555;
+    z-index: 1;
+}
 
 p.legende {
     text-shadow:0 0 1px black;
