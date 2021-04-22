@@ -152,11 +152,11 @@ body {
     border: 15px ridge grey;
     background-color: WhiteSmoke;
     margin: 10% 10% 10% 10%;
-    padding: 1%;
+    padding: 0%;
     box-shadow: 2px 2px 12px #555;
 
-
 }
+
 #imageprofil {
     float: left;
     border: 15px ridge #f7bd40;
@@ -266,8 +266,8 @@ form {
     z-index: 1;
 }
 #insta {
-    float: left;
-    margin: 3% 3% 3% 30%;
+    float: center;
+    margin: 3% 3% 3% 10%;
     width: 700px;
     box-shadow: 2px 2px 12px #555;
     z-index: 1;
