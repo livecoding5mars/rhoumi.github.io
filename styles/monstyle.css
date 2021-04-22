@@ -38,16 +38,20 @@
     
 }
 
-.dropdown-content a:hover {background-color: grey}   /* Permettent un changement de couleur au passage de la souris sur les sous dossiers du menu déroulant */
+.dropdown-content a:hover {
+    background-color: grey;
+ text-shadow: -100px -20px red, 100px -20px darkgreen, 50px 20px darkblue;} 
+                                                  /* Permettent un changement de couleur au passage de la souris sur les sous dossiers du menu déroulant */
 
 
 .dropdown:hover .dropdown-content {     
-    display: block;
+    display: block
+    ;
 }
 
 .dropdown:hover .dropbtn {     /* Permettent un changement de couleur au passage de la souris sur le menu déroulant */
     background-color: grey;
-}
+ text-shadow: -100px -20px red, 100px -20px darkgreen, 50px 20px darkblue;} 
 
 .list {                           
     top: 0;
@@ -105,7 +109,7 @@ body {
     font-size: 19px;
     text-align: center;
     float: left;
-    border: 15px ridge #b12a30;
+    border: 15px ridge red;
     background-color: WhiteSmoke;
     margin: 6% 0% 2% 20%;
     padding: 8px;
@@ -116,7 +120,7 @@ body {
 #rectd {            /* cadre études et formations*/
     text-align: center;
     float: right;
-    border: 15px ridge #ed7425;
+    border: 15px ridge darkblue;
     background-color: WhiteSmoke;
     margin: 10% 20% 5% 0%;
     padding: 8px;
@@ -127,7 +131,7 @@ body {
 #rectcomp {             /*cadre Langues et informatique*/
     text-align: center;
     float: left;
-    border: 15px ridge #ed7425;
+    border: 15px ridge darkgreen;
     background-color: WhiteSmoke;
     margin: 10% 0% 15% 7%;
     padding: 8px;
@@ -137,7 +141,7 @@ body {
 #rectexp {
     text-align: center;
     float: right;
-    border: 15px ridge #d94527;
+    border: 15px ridge red;
     background-color: WhiteSmoke;
     margin: 0% 10% 0% 0%;
     padding: 1%;
@@ -151,8 +155,8 @@ body {
     float: center;
     border: 15px ridge grey;
     background-color: WhiteSmoke;
-    margin: 10% 10% 10% 10%;
-    padding: 0%;
+    margin: 0% 10% 10% 10%;
+    padding: 0;
     box-shadow: 2px 2px 12px #555;
 
 }
@@ -161,7 +165,7 @@ body {
     float: left;
     border: 15px ridge #f7bd40;
     background-color: WhiteSmoke;
-    margin: 5% 0px 0% 10%;
+    margin: 5% 2% 2% 10%;
     padding: 0px;
     width: 450px;
     box-shadow: 2px 2px 12px #555;
@@ -180,7 +184,7 @@ body {
     text-align: center;
     font-weight: bold;
     font-size: xx-large;
-    color: #641c0e;
+    color: black;
     text-decoration: none;
 
 }
@@ -197,7 +201,7 @@ body {
 .stitre {
     font-weight: bold;
     font-size: large;
-    color: #9b2126;
+    color: grey;
 
 }
 
@@ -272,6 +276,7 @@ form {
     box-shadow: 2px 2px 12px #555;
     z-index: 1;
 }
+
 
 p.legende {
     text-shadow:0 0 1px black;
