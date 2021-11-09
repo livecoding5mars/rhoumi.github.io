@@ -91,7 +91,7 @@
 /*Le CV*/
 
 .bandeau {
-    font-family: NewTimesRoman;
+font-family: 'FantasqueSansMonoRegular';
     color: grey;
     text-shadow:0px 5px 15px black;
     z-index: 1;
@@ -191,7 +191,7 @@ font-family: 'FantasqueSansMonoRegular';
 }
 .news {
     text-align: center;
-    font-family: NewTimesRoman;
+font-family: 'FantasqueSansMonoRegular';
     font-weight: bold;
     font-size: xx-large;
     color: black;
