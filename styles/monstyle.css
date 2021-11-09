@@ -99,8 +99,9 @@
 
 body {
     /*font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;*/
-    font-family: Courier;
-    font-stretch: ultra-condensed;  
+font-family: 'FantasqueSansMonoRegular';
+   font-weight: normal;
+   font-style: normal;    font-stretch: ultra-condensed;  
     font-size: 1em;
 
 }
