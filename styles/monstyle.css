@@ -15,7 +15,7 @@
 .dropbtn {                      /* Classe des dossiers principaux du menu déroulant*/
     background-color: lightgrey;      
     color: black;
-    padding: 5px;
+    padding: 15px;
     font-size: 25px;
     border: none;                   /*Informations relatives au menu déroulant*/
     cursor: pointer;
@@ -52,7 +52,10 @@
 
 .dropdown-content a:hover {
     background-color: grey;
- text-shadow: -100px -20px red, 100px -20px darkgreen, 50px 20px darkblue;} 
+ text-shadow: -100px -20px red, 100px -20px darkgreen, 50px 20px darkblue;
+z-index: 7;  
+} 
+
                                                   /* Permettent un changement de couleur au passage de la souris sur les sous dossiers du menu déroulant */
 
 
@@ -63,7 +66,10 @@
 
 .dropdown:hover .dropbtn {     /* Permettent un changement de couleur au passage de la souris sur le menu déroulant */
     background-color: grey;
- text-shadow: -100px -20px red, 100px -20px darkgreen, 50px 20px darkblue;} 
+ text-shadow: -100px -20px red, 100px -20px darkgreen, 50px 20px darkblue;
+z-index: 7;  
+} 
+
 
 .list {                           
     top: 0;
