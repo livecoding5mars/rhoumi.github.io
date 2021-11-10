@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Kaeru';
-  src: url('kaerukaeru-Regular.otf'); 
+  src: url('kaerukaeru-Regular.otf') format("opentype"); 
 }
 
 
