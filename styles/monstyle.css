@@ -5,8 +5,7 @@
       src: url('VG5000/VG5000-Regular.otf') format('opentype'),
        url('VG5000/VG5000-Regular_web.woff2') format('woff2'), 
        url('VG5000/VG5000-Regular_web.woff') format('woff'), 
-        url('VG5000/VG5000-Regular_web.otf') format('opentype')
-       url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+        url('VG5000/VG5000-Regular_web.otf') format('opentype');
   
 }
 
