@@ -15,7 +15,7 @@
 .dropbtn {                      /* Classe des dossiers principaux du menu déroulant*/
     background-color: lightgrey;      
     color: black;
-    padding: 15px;
+    padding: 5px;
     font-size: 25px;
     border: none;                   /*Informations relatives au menu déroulant*/
     cursor: pointer;
