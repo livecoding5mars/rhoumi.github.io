@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Kaeru';
+  src: url('kaerukaeru-Regular.otf'); 
+}
+
+
+
 /* Le menu déroulant*/
 
 .dropbtn {                      /* Classe des dossiers principaux du menu déroulant*/
