@@ -317,7 +317,15 @@ p.legende2 {
     margin: 1% 25% 5% 25%;
     padding:0px;
     }
+.glitchee {
 
+     color: red;
+    font-size:120%; 
+    display: block;
+      text-decoration: none;
+
+
+}
 
 /* Le footer */
 
